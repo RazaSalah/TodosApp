@@ -39,6 +39,7 @@ const TodosApp = () => {
     }
   };
   return (
+    // the keyboard will be dismissed if the user click on any place inside the app
     <TouchableWithoutFeedback
       onPress={() => {
         Keyboard.dismiss();
